@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: blog_app
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGO_URL
+        value: mongodb+srv://sandeepsinha112233:sandeep557@cluster0.pzfuldo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
