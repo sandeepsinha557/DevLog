@@ -10,7 +10,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: 'devlog_blog_covers', // your custom folder in Cloudinary
+    folder: 'devlog_blog_covers',
     allowed_formats: ['jpg', 'jpeg', 'png'],
   },
 });
